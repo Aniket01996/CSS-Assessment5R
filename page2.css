@@ -1,0 +1,91 @@
+html body {
+    background-color: yellow;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.one {
+    transition-property: width;
+    transition: 2s linear;
+
+}
+
+.one:hover {
+    width: 400px
+}
+
+.two {
+    transition-property: width, height;
+    transition-duration: 2s, 4s;
+}
+
+.two:hover {
+    width: 200px;
+    height: 200px
+}
+
+.three {
+    transition-property: width;
+
+    transition: 2s linear;
+
+}
+
+.three:hover {
+    width: 400px
+}
+
+.four {
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.four:hover {
+    width: 400px
+}
+
+.five {
+    transition-property: width;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+
+.five:hover {
+    width: 400px
+}
+
+.six {
+    transition-property: width;
+    transition-duration: 4s;
+    transition-timing-function: ease-in;
+}
+
+.six:hover {
+    width: 400px
+}
+
+.seven {
+    transition-property: width;
+    transition-duration: 5s;
+    transition-timing-function: ease-out
+}
+
+.seven:hover {
+    width: 400px
+}
